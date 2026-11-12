@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/tablet",
+    "crates/evm",
+    "crates/dropio",
+    "crates/qing-core",
+    "apps/qing",
+    "apps/zhuo",
+]

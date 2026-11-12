@@ -1,0 +1,17 @@
+[package]
+name = "qing-core"
+version = "0.1.0"
+edition = "2021"
+description = "清机：保险库、派生和签名。没有网络。"
+publish = false
+
+[dependencies]
+argon2 = "0.5"
+bip32 = "0.5"
+bip39 = "2.1"
+chacha20poly1305 = "0.10"
+getrandom = "0.2"
+k256 = { version = "0.13", features = ["arithmetic", "ecdsa", "sha256"] }
+konghu-evm = { path = "../evm" }
+tablet = { path = "../tablet" }
+zeroize = { version = "1", features = ["derive"] }

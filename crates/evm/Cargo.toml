@@ -1,0 +1,10 @@
+[package]
+name = "konghu-evm"
+version = "0.1.0"
+edition = "2021"
+description = "从简牍还原 EVM 转账。没有网络，没有密钥。"
+publish = false
+
+[dependencies]
+sha3 = "0.10"
+tablet = { path = "../tablet" }

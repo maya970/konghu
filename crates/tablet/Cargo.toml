@@ -1,0 +1,8 @@
+[package]
+name = "tablet"
+version = "0.1.0"
+edition = "2021"
+description = "空毂钱包的固定简牍。没有通用解析器。"
+publish = false
+
+[dependencies]

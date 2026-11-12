@@ -1,0 +1,20 @@
+[package]
+name = "zhuo"
+version = "0.1.0"
+edition = "2021"
+description = "浊机：链登记、简牍和广播。没有种子。"
+publish = false
+
+[dependencies]
+dropio = { path = "../../crates/dropio" }
+konghu-evm = { path = "../../crates/evm" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tablet = { path = "../../crates/tablet" }
+ureq = { version = "2.12", default-features = false, features = ["native-tls", "json"] }
+windows-sys = { version = "0.59", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+    "Win32_System_LibraryLoader",
+    "Win32_UI_WindowsAndMessaging",
+] }
