@@ -1,4 +1,5 @@
 /target
+/打开
 **/*.khuv
 **/*.khub
 **/*.khur

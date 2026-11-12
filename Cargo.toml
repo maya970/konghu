@@ -7,4 +7,5 @@ members = [
     "crates/qing-core",
     "apps/qing",
     "apps/zhuo",
+    "apps/konghu",
 ]
