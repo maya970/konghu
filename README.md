@@ -2,7 +2,9 @@
 
 Windows 上的 EVM 转账钱包。只做两件事：主币转账，以及 ERC-20 的 `transfer(address,uint256)`。没有 DApp 连接，没有授权，没有任意签名。
 
-双击桌面上的「空毂」，或双击 `打开\空毂.exe`。会打开三扇窗口：
+可执行程序在 [v0.1.0](https://github.com/maya970/konghu/releases/tag/v0.1.0) 的 `konghu-windows.zip`。解压后同一目录里应有 `konghu.exe`、`qing.exe`、`zhuo.exe`、`evm.json`。双击 `konghu.exe`。
+
+双击桌面上的「空毂」，或双击 `打开\空毂.exe`，效果相同。会打开三扇窗口：
 
 | 窗口 | 程序 | 作用 |
 | --- | --- | --- |
